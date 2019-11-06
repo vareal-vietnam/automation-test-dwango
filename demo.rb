@@ -14,6 +14,9 @@ require "selenium-webdriver"
   options.add_argument('--disable-popup-blocking')
   options.add_argument('--disable-translate')
 
+  # Run job in background
+  # options.add_argument('--headless')
+
   driver = Selenium::WebDriver.for :chrome, options: options, http_client: client
   driver.navigate.to "https://pc-monka.dev.nnn.ed.nico/"
 
