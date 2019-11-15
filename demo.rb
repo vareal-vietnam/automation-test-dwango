@@ -46,10 +46,10 @@ require "pry"
   driver.find_element(name:"month").send_keys('10')
   driver.find_element(name:"day").send_keys('9')
 
-  driver.find_element(name:'profile[last_name]').send_keys('ます')
-  driver.find_element(name:'profile[first_name]').send_keys('ます')
-  driver.find_element(name:'profile[last_name_kana]').send_keys('ます')
-  driver.find_element(name:'profile[first_name_kana]').send_keys('ます')
+  driver.find_element(name:'profile[last_name]').send_keys('テスト')
+  driver.find_element(name:'profile[first_name]').send_keys('テスト')
+  driver.find_element(name:'profile[last_name_kana]').send_keys('テスト')
+  driver.find_element(name:'profile[first_name_kana]').send_keys('テスト')
   driver.find_element(name:'profile[postal_code]').send_keys('1640013')
   driver.find_element(name:'profile[phone_number]').send_keys('123456789')
 
